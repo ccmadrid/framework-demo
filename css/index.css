@@ -11,8 +11,76 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+	font-family: sans-serif;
 }
 
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+.banner {
+
+}
+
+.inner {
+	position: relative;
+}
+
+.embed {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+.embed-item {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.embed-1by1 {
+	padding-top: 100%;
+}
+
+.bucket {
+	background-color: #ccc;
+}
+
+.bucket a {
+	display: block;
+	background-color: #fff;
+	text-decoration: none;
+	padding: 1em 0 0.5em;
+
+}
+
+.bucket h3 {
+	font-size: 5em;
+	color: #333;
+
+}
+
+
+.magic {
+	text-align: center;
+	width: 10em;
+	display: block;
+	padding: 2em;
+	margin: 1em auto;
+	background-color: #ccc;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.test > *,
+.test > * > *,
+.test > * > * > *,
+.test > * > * > * > * {
+	border: dashed 1px #ddd;
+	background-color: #fff;
+	color: #ddd;
+}
+
+
